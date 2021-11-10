@@ -1,12 +1,24 @@
 name: fastbook
-channels:
-    - fastai
-    - pytorch
-    - defaults
+# channels:
+#     - fastai
+#     - pytorch
+#     - defaults
 dependencies:
   - python>=3.6
-  - pytorch>=1.6
-  - torchvision
+  - pytorch::pytorch>=1.6
+  - pytorch::torchvision
+  - fastai::fastai
+  - fastai::fastbook
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - ipywidgets
+  - conda-forge::graphviz
+  - fastai::nbdev
+  - conda-forge::sentencepiece
   - pip
+  - nb_conda
+  - jupyterlab
+  - ipykernel
   - pip:
     - -r requirements.txt #https://stackoverflow.com/a/68586065/758542
