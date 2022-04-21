@@ -20,5 +20,9 @@ dependencies:
   - nb_conda
   - jupyterlab
   - ipykernel
+  - conda-forge::kaggle
+  - conda-forge::waterfallcharts
+  - conda-forge::treeinterpreter
+  - conda-forge::dtreeviz
   - pip:
     - -r requirements.txt #https://stackoverflow.com/a/68586065/758542
